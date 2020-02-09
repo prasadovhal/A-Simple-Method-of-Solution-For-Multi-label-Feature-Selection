@@ -1,0 +1,19 @@
+Required libraries before run code
+
+1. NMF
+2. e1071
+
+Used datasets:
+
+1. Emotion : Variables = 72, Lables = 6, Examples = 593
+2. Scene : Variables = 294, Lables = 6, Examples = 2407
+3. Yeast : Variables = 103, Lables = 14, Examples = 2417
+
+Folds used for cross validation : 5 
+can be changed by changing variable name folds
+
+Used machine learning algorithm: SVM (can be changed)
+
+Used performance measure: micro average, hamming loss. (macro average can also be used)
+
+If dataset changed then change var_size which is number of variables for each dataset, change as per mentioned above.
